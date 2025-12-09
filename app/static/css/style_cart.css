@@ -1,0 +1,18 @@
+.mini-cart-box {
+    position: fixed;
+    top: 70px;
+    right: 20px;
+    width: 450px;
+    max-height: 80vh;
+    overflow-y: auto;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+    padding: 15px;
+    z-index: 2000;
+    display: none; /*Ẩn*/
+}
+
+.mini-cart-box.active {
+    display: block; /*  hiện */
+}
